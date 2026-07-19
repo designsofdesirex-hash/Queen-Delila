@@ -2,7 +2,7 @@
  * hero-3d.js
  * ─────────────────────────────────────────────────────────────
  * "Embers in the Dark" — Three.js particle system for the
- * Mistresss Lara home page hero section.
+ * Queen Delila home page hero section.
  *
  * Renders rising ember particles with additive blending,
  * turbulent drift, mouse-parallax, and automatic lifecycle.

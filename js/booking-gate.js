@@ -1,7 +1,7 @@
 /**
  * booking-gate.js
  * ─────────────────────────────────────────────────────────────
- * Conditional booking flow for the Mistresss Lara booking page.
+ * Conditional booking flow for the Queen Delila booking page.
  *
  * Controls:
  *   • Identity split (Slave / Fetishist card selection)

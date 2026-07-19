@@ -1,4 +1,4 @@
-# Mistress Lara - Full Website Architecture & Source Code
+# Queen Delila - Full Website Architecture & Source Code
 
 This document contains the complete source code and structure for the website.
 
@@ -13,9 +13,9 @@ This document contains the complete source code and structure for the website.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mistresss Lara — Moroccan Dominatrix</title>
-  <meta name="description" content="Official site of Mistresss Lara. Moroccan Dominatrix. Femdom content, custom sessions, and elite slave training. Enter if you dare.">
-  <meta property="og:title" content="Mistresss Lara — Moroccan Dominatrix">
+  <title>Queen Delila — Moroccan Dominatrix</title>
+  <meta name="description" content="Official site of Queen Delila. Moroccan Dominatrix. Femdom content, custom sessions, and elite slave training. Enter if you dare.">
+  <meta property="og:title" content="Queen Delila — Moroccan Dominatrix">
   <meta property="og:description" content="Cold. Elegant. Merciless. Explore rules, services, and request an audience.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +30,7 @@ This document contains the complete source code and structure for the website.
        ============================================================ -->
   <div class="age-gate" id="ageGate">
     <div class="age-gate-content">
-      <div class="age-gate-logo">Mistress Lara</div>
+      <div class="age-gate-logo">Queen Delila</div>
       <p class="age-gate-text">This site contains adult content.<br>You must be 18 or older to enter.</p>
       <div class="age-gate-actions">
         <button class="btn btn-primary" id="ageEnter">E N T E R</button>
@@ -49,7 +49,7 @@ This document contains the complete source code and structure for the website.
        ============================================================ -->
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
-      <div class="nav-logo">Mistress Lara</div>
+      <div class="nav-logo">Queen Delila</div>
       <div class="nav-motto">Your Eternal Addiction</div>
     </a>
     <div class="nav-links" id="navLinks">
@@ -59,10 +59,10 @@ This document contains the complete source code and structure for the website.
       <a href="booking.html" class="nav-link">B O O K I N G</a>
     </div>
     <div class="nav-socials">
-      <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
+      <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">F</text></svg>
       </a>
-      <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
+      <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
       </a>
       <a href="#telegram-placeholder" target="_blank" rel="noopener" class="nav-social" aria-label="Telegram">
@@ -82,7 +82,7 @@ This document contains the complete source code and structure for the website.
     <div class="hero-overlay"></div>
     <canvas class="hero-canvas" id="heroCanvas"></canvas>
     <div class="hero-content">
-      <h1 class="hero-title">MISTRESSS LARA</h1>
+      <h1 class="hero-title">QUEEN DELILA</h1>
       <p class="hero-subtitle">Moroccan Dominatrix · Cold · Elegant · Merciless</p>
 
       <div class="hero-specialties">
@@ -107,7 +107,7 @@ This document contains the complete source code and structure for the website.
     <div class="section-inner">
       <div class="intro-split reveal">
         <div class="intro-image">
-          <img src="image2.jpg" alt="Mistress Lara">
+          <img src="image2.jpg" alt="Queen Delila">
         </div>
         <div class="intro-content">
           <hr class="intro-rule">
@@ -132,25 +132,25 @@ This document contains the complete source code and structure for the website.
           <span class="feature-number">I</span>
           <h3 class="feature-title">Exclusive Femdom Videos</h3>
           <p class="feature-text">Produced, directed, and starring me. Each video a masterclass in control.</p>
-          <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="feature-link">View on Fansly →</a>
+          <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="feature-link">View on Fansly →</a>
         </div>
         <div class="feature-card reveal">
           <span class="feature-number">II</span>
           <h3 class="feature-title">Photography</h3>
           <p class="feature-text">Feet, outfits, tools, scenes. Every frame deliberate.</p>
-          <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="feature-link">View on Fansly →</a>
+          <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="feature-link">View on Fansly →</a>
         </div>
         <div class="feature-card reveal">
           <span class="feature-number">III</span>
           <h3 class="feature-title">Orders &amp; Challenges</h3>
           <p class="feature-text">Tasks for the obedient. Trials for the devoted. Not for the faint.</p>
-          <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="feature-link">View on Fansly →</a>
+          <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="feature-link">View on Fansly →</a>
         </div>
         <div class="feature-card reveal">
           <span class="feature-number">IV</span>
           <h3 class="feature-title">Custom Content</h3>
           <p class="feature-text">Commissioned work for those who have earned the privilege.</p>
-          <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="feature-link">View on Fansly →</a>
+          <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="feature-link">View on Fansly →</a>
         </div>
       </div>
     </div>
@@ -256,14 +256,14 @@ This document contains the complete source code and structure for the website.
         <p class="footer-tagline">"I am the fire of any fire I fear"</p>
       </div>
       <div class="footer-socials">
-        <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener">Fansly</a>
-        <a href="https://www.instagram.com/sovereignlara/" target="_blank" rel="noopener">@sovereignlara</a>
-        <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener">@Mistresss_lara</a>
+        <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener">Fansly</a>
+        <a href="https://www.instagram.com/queendelila/" target="_blank" rel="noopener">@queendelila</a>
+        <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener">@Queen_delila</a>
         <a href="#telegram-placeholder" target="_blank" rel="noopener">Telegram</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Mistresss Lara</span>
+      <span>© 2026 Queen Delila</span>
       <span class="footer-divider">·</span>
       <span>18+ Only</span>
       <span class="footer-divider">·</span>
@@ -297,8 +297,8 @@ This document contains the complete source code and structure for the website.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rules & Services - Mistress Lara</title>
-  <meta name="description" content="The rules of engagement with Mistresss Lara. Read, understand, and comply — or leave. No exceptions.">
+  <title>Rules & Services - Queen Delila</title>
+  <meta name="description" content="The rules of engagement with Queen Delila. Read, understand, and comply — or leave. No exceptions.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
@@ -308,7 +308,7 @@ This document contains the complete source code and structure for the website.
 
   <div class="age-gate" id="ageGate">
     <div class="age-gate-content">
-      <div class="age-gate-logo">Mistress Lara</div>
+      <div class="age-gate-logo">Queen Delila</div>
       <p class="age-gate-text">This site contains adult content.<br>You must be 18 or older to enter.</p>
       <div class="age-gate-actions">
         <button class="btn btn-primary" id="ageEnter">E N T E R</button>
@@ -321,7 +321,7 @@ This document contains the complete source code and structure for the website.
 
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
-      <div class="nav-logo">Mistress Lara</div>
+      <div class="nav-logo">Queen Delila</div>
       <div class="nav-motto">Your Eternal Addiction</div>
     </a>
     <div class="nav-links" id="navLinks">
@@ -331,10 +331,10 @@ This document contains the complete source code and structure for the website.
       <a href="booking.html" class="nav-link">B O O K I N G</a>
     </div>
     <div class="nav-socials">
-      <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
+      <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">F</text></svg>
       </a>
-      <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
+      <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
       </a>
       <a href="#telegram-placeholder" target="_blank" rel="noopener" class="nav-social" aria-label="Telegram">
@@ -567,14 +567,14 @@ This document contains the complete source code and structure for the website.
         <p class="footer-tagline">"I am the fire of any fire I fear"</p>
       </div>
       <div class="footer-socials">
-        <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener">Fansly</a>
-        <a href="https://www.instagram.com/sovereignlara/" target="_blank" rel="noopener">@sovereignlara</a>
-        <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener">@Mistresss_lara</a>
+        <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener">Fansly</a>
+        <a href="https://www.instagram.com/queendelila/" target="_blank" rel="noopener">@queendelila</a>
+        <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener">@Queen_delila</a>
         <a href="#telegram-placeholder" target="_blank" rel="noopener">Telegram</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Mistresss Lara</span>
+      <span>© 2026 Queen Delila</span>
       <span class="footer-divider">·</span>
       <span>18+ Only</span>
       <span class="footer-divider">·</span>
@@ -603,8 +603,8 @@ This document contains the complete source code and structure for the website.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery — Mistresss Lara</title>
-  <meta name="description" content="Evidence of devotion. Curated imagery and content from Mistresss Lara — photos, videos, outfits and tools.">
+  <title>Gallery — Queen Delila</title>
+  <meta name="description" content="Evidence of devotion. Curated imagery and content from Queen Delila — photos, videos, outfits and tools.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
@@ -614,7 +614,7 @@ This document contains the complete source code and structure for the website.
 
   <div class="age-gate" id="ageGate">
     <div class="age-gate-content">
-      <div class="age-gate-logo">Mistress Lara</div>
+      <div class="age-gate-logo">Queen Delila</div>
       <p class="age-gate-text">This site contains adult content.<br>You must be 18 or older to enter.</p>
       <div class="age-gate-actions">
         <button class="btn btn-primary" id="ageEnter">E N T E R</button>
@@ -627,7 +627,7 @@ This document contains the complete source code and structure for the website.
 
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
-      <div class="nav-logo">Mistress Lara</div>
+      <div class="nav-logo">Queen Delila</div>
       <div class="nav-motto">Your Eternal Addiction</div>
     </a>
     <div class="nav-links" id="navLinks">
@@ -637,10 +637,10 @@ This document contains the complete source code and structure for the website.
       <a href="booking.html" class="nav-link">B O O K I N G</a>
     </div>
     <div class="nav-socials">
-      <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
+      <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">F</text></svg>
       </a>
-      <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
+      <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
       </a>
       <a href="#telegram-placeholder" target="_blank" rel="noopener" class="nav-social" aria-label="Telegram">
@@ -686,31 +686,31 @@ This document contains the complete source code and structure for the website.
         <div class="gallery-tile" data-category="photo">
           <div class="gallery-tile-placeholder">📸</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
         <div class="gallery-tile" data-category="photo">
           <div class="gallery-tile-placeholder">📸</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
         <div class="gallery-tile" data-category="photo">
           <div class="gallery-tile-placeholder">📸</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
         <div class="gallery-tile" data-category="photo">
           <div class="gallery-tile-placeholder">📸</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
         <div class="gallery-tile" data-category="photo">
           <div class="gallery-tile-placeholder">📸</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
 
@@ -718,25 +718,25 @@ This document contains the complete source code and structure for the website.
         <div class="gallery-tile gallery-tile--video" data-category="video">
           <div class="gallery-tile-placeholder"></div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
         <div class="gallery-tile gallery-tile--video" data-category="video">
           <div class="gallery-tile-placeholder"></div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
         <div class="gallery-tile gallery-tile--video" data-category="video">
           <div class="gallery-tile-placeholder"></div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
         <div class="gallery-tile gallery-tile--video" data-category="video">
           <div class="gallery-tile-placeholder"></div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
 
@@ -744,19 +744,19 @@ This document contains the complete source code and structure for the website.
         <div class="gallery-tile" data-category="outfit">
           <div class="gallery-tile-placeholder">👑</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
         <div class="gallery-tile" data-category="outfit">
           <div class="gallery-tile-placeholder">👑</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
         <div class="gallery-tile" data-category="outfit">
           <div class="gallery-tile-placeholder">👑</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
           </div>
         </div>
 
@@ -777,14 +777,14 @@ This document contains the complete source code and structure for the website.
         <p class="footer-tagline">"I am the fire of any fire I fear"</p>
       </div>
       <div class="footer-socials">
-        <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener">Fansly</a>
-        <a href="https://www.instagram.com/sovereignlara/" target="_blank" rel="noopener">@sovereignlara</a>
-        <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener">@Mistresss_lara</a>
+        <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener">Fansly</a>
+        <a href="https://www.instagram.com/queendelila/" target="_blank" rel="noopener">@queendelila</a>
+        <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener">@Queen_delila</a>
         <a href="#telegram-placeholder" target="_blank" rel="noopener">Telegram</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Mistresss Lara</span>
+      <span>© 2026 Queen Delila</span>
       <span class="footer-divider">·</span>
       <span>18+ Only</span>
       <span class="footer-divider">·</span>
@@ -813,8 +813,8 @@ This document contains the complete source code and structure for the website.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Booking — Mistresss Lara</title>
-  <meta name="description" content="Request a session with Mistresss Lara. Choose your path — slave or fetishist — accept the terms, and submit your booking inquiry.">
+  <title>Booking — Queen Delila</title>
+  <meta name="description" content="Request a session with Queen Delila. Choose your path — slave or fetishist — accept the terms, and submit your booking inquiry.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
@@ -825,7 +825,7 @@ This document contains the complete source code and structure for the website.
   <!-- ═══════════════════════════════════════════ AGE GATE ═══ -->
   <div class="age-gate" id="ageGate">
     <div class="age-gate-content">
-      <div class="age-gate-logo">Mistress Lara</div>
+      <div class="age-gate-logo">Queen Delila</div>
       <p class="age-gate-text">This site contains adult content.<br>You must be 18 or older to enter.</p>
       <div class="age-gate-actions">
         <button class="btn btn-primary" id="ageEnter">E N T E R</button>
@@ -840,7 +840,7 @@ This document contains the complete source code and structure for the website.
   <!-- ═══════════════════════════════════════════ NAV ═══ -->
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
-      <div class="nav-logo">Mistress Lara</div>
+      <div class="nav-logo">Queen Delila</div>
       <div class="nav-motto">Your Eternal Addiction</div>
     </a>
     <div class="nav-links" id="navLinks">
@@ -850,10 +850,10 @@ This document contains the complete source code and structure for the website.
       <a href="booking.html" class="nav-link nav-link--active">B O O K I N G</a>
     </div>
     <div class="nav-socials">
-      <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
+      <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">F</text></svg>
       </a>
-      <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
+      <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
       </a>
       <a href="#telegram-placeholder" target="_blank" rel="noopener" class="nav-social" aria-label="Telegram">
@@ -1024,14 +1024,14 @@ This document contains the complete source code and structure for the website.
         <p class="footer-tagline">"I am the fire of any fire I fear"</p>
       </div>
       <div class="footer-socials">
-        <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener">Fansly</a>
-        <a href="https://www.instagram.com/sovereignlara/" target="_blank" rel="noopener">@sovereignlara</a>
-        <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener">@Mistresss_lara</a>
+        <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener">Fansly</a>
+        <a href="https://www.instagram.com/queendelila/" target="_blank" rel="noopener">@queendelila</a>
+        <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener">@Queen_delila</a>
         <a href="#telegram-placeholder" target="_blank" rel="noopener">Telegram</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Mistresss Lara</span>
+      <span>© 2026 Queen Delila</span>
       <span class="footer-divider">·</span>
       <span>18+ Only</span>
       <span class="footer-divider">·</span>
@@ -1064,8 +1064,8 @@ This document contains the complete source code and structure for the website.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms & Privacy — Mistresss Lara</title>
-  <meta name="description" content="Terms of use and privacy policy for the official website of Mistresss Lara. Read before proceeding.">
+  <title>Terms & Privacy — Queen Delila</title>
+  <meta name="description" content="Terms of use and privacy policy for the official website of Queen Delila. Read before proceeding.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
@@ -1075,7 +1075,7 @@ This document contains the complete source code and structure for the website.
 
   <div class="age-gate" id="ageGate">
     <div class="age-gate-content">
-      <div class="age-gate-logo">Mistress Lara</div>
+      <div class="age-gate-logo">Queen Delila</div>
       <p class="age-gate-text">This site contains adult content.<br>You must be 18 or older to enter.</p>
       <div class="age-gate-actions">
         <button class="btn btn-primary" id="ageEnter">E N T E R</button>
@@ -1088,7 +1088,7 @@ This document contains the complete source code and structure for the website.
 
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
-      <div class="nav-logo">Mistress Lara</div>
+      <div class="nav-logo">Queen Delila</div>
       <div class="nav-motto">Your Eternal Addiction</div>
     </a>
     <div class="nav-links" id="navLinks">
@@ -1098,10 +1098,10 @@ This document contains the complete source code and structure for the website.
       <a href="booking.html" class="nav-link">B O O K I N G</a>
     </div>
     <div class="nav-socials">
-      <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
+      <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">F</text></svg>
       </a>
-      <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
+      <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
       </a>
       <a href="#telegram-placeholder" target="_blank" rel="noopener" class="nav-social" aria-label="Telegram">
@@ -1136,20 +1136,20 @@ This document contains the complete source code and structure for the website.
       <div class="terms-content">
 
         <h2>Site Purpose</h2>
-        <p>This website serves as the official online presence of Mistresss Lara. It provides information about services, rules of engagement, and booking facilities. No explicit content is hosted directly on this site.</p>
+        <p>This website serves as the official online presence of Queen Delila. It provides information about services, rules of engagement, and booking facilities. No explicit content is hosted directly on this site.</p>
 
         <h2>Age Requirement</h2>
         <p>This website is intended for adults aged 18 and older. By entering this site, you confirm that you meet the minimum age requirement in your jurisdiction.</p>
 
         <h2>Data Collection &amp; Privacy Policy</h2>
         <p>This site utilizes <strong>Tally.so</strong> for the processing of booking applications and inquiries. By submitting a form, you acknowledge that your responses will be securely collected and automatically transferred to a private <strong>Google Sheet</strong> for review and record-keeping.</p>
-        <p>All data submitted—including your personal information, limits, and submission agreements—is strictly confidential and accessed exclusively by Mistresss Lara. We do not sell, distribute, or expose your data to any external third parties. If your application is rejected or you are blacklisted, your data may be retained for future reference to enforce bans. No other hidden tracking, cookies, or analytics are implemented on this site.</p>
+        <p>All data submitted—including your personal information, limits, and submission agreements—is strictly confidential and accessed exclusively by Queen Delila. We do not sell, distribute, or expose your data to any external third parties. If your application is rejected or you are blacklisted, your data may be retained for future reference to enforce bans. No other hidden tracking, cookies, or analytics are implemented on this site.</p>
 
         <h2>External Links</h2>
         <p>This site contains links to third-party platforms including Fansly, Instagram, and Telegram. These platforms have their own terms of service and privacy policies. We are not responsible for the content or practices of external sites.</p>
 
         <h2>Content Ownership</h2>
-        <p>All content, text, design elements, and branding on this site are the intellectual property of Mistresss Lara. Reproduction, distribution, or modification without explicit written consent is prohibited.</p>
+        <p>All content, text, design elements, and branding on this site are the intellectual property of Queen Delila. Reproduction, distribution, or modification without explicit written consent is prohibited.</p>
 
         <h2>Confidentiality</h2>
         <p>All communications and personal information exchanged through this site or its booking forms are treated as confidential. Information will not be shared with third parties except as required by law.</p>
@@ -1175,14 +1175,14 @@ This document contains the complete source code and structure for the website.
         <p class="footer-tagline">"I am the fire of any fire I fear"</p>
       </div>
       <div class="footer-socials">
-        <a href="https://fansly.com/mistresss_lara/posts" target="_blank" rel="noopener">Fansly</a>
-        <a href="https://www.instagram.com/sovereignlara/" target="_blank" rel="noopener">@sovereignlara</a>
-        <a href="https://www.instagram.com/Mistresss_lara" target="_blank" rel="noopener">@Mistresss_lara</a>
+        <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener">Fansly</a>
+        <a href="https://www.instagram.com/queendelila/" target="_blank" rel="noopener">@queendelila</a>
+        <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener">@Queen_delila</a>
         <a href="#telegram-placeholder" target="_blank" rel="noopener">Telegram</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Mistresss Lara</span>
+      <span>© 2026 Queen Delila</span>
       <span class="footer-divider">·</span>
       <span>18+ Only</span>
       <span class="footer-divider">·</span>
@@ -1207,7 +1207,7 @@ This document contains the complete source code and structure for the website.
 `$ext
 
 /* ============================================================
-   MISTRESS LARA — COMPLETE DESIGN SYSTEM
+   QUEEN DELILA — COMPLETE DESIGN SYSTEM
    All 5 HTML pages share this single stylesheet.
    ============================================================ */
 
@@ -2970,7 +2970,7 @@ a {
 `$ext
 
 /* ============================================
-   MISTRESSS LARA — GLOBAL JS
+   QUEEN DELILA — GLOBAL JS
    ============================================ */
 
 /* ------------------------------------------
@@ -3278,7 +3278,7 @@ document.addEventListener('DOMContentLoaded', () => {
  * hero-3d.js
  * ─────────────────────────────────────────────────────────────
  * "Embers in the Dark" — Three.js particle system for the
- * Mistresss Lara home page hero section.
+ * Queen Delila home page hero section.
  *
  * Renders rising ember particles with additive blending,
  * turbulent drift, mouse-parallax, and automatic lifecycle.
@@ -3637,7 +3637,7 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.m
 /**
  * booking-gate.js
  * ─────────────────────────────────────────────────────────────
- * Conditional booking flow for the Mistresss Lara booking page.
+ * Conditional booking flow for the Queen Delila booking page.
  *
  * Controls:
  *   • Identity split (Slave / Fetishist card selection)
