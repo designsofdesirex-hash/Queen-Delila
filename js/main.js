@@ -236,9 +236,6 @@ function initGalleryFilter() {
   }
 
   renderGallery();
-});
-    });
-  });
 }
 
 /* ------------------------------------------
