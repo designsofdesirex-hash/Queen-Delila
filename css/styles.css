@@ -396,7 +396,7 @@ button.nav-social {
 }
 
 .hero-video.active {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .hero-overlay {
@@ -404,9 +404,9 @@ button.nav-social {
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(10, 10, 10, 0.5) 0%,
-    rgba(10, 10, 10, 0.8) 70%,
-    rgba(10, 10, 10, 1) 100%
+    rgba(10, 10, 10, 0.15) 0%,
+    rgba(10, 10, 10, 0.4) 70%,
+    rgba(10, 10, 10, 0.7) 100%
   );
   z-index: 2;
 }
