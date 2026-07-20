@@ -50,7 +50,7 @@ This document contains the complete source code and structure for the website.
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
       <div class="nav-logo">Queen Delila</div>
-      <div class="nav-motto">Your Eternal Addiction</div>
+      <div class="nav-motto" style="line-height: 1.4;">I have puppets all over the world</div>
     </a>
     <div class="nav-links" id="navLinks">
       <a href="index.html" class="nav-link nav-link--active">H O M E</a>
@@ -322,7 +322,7 @@ This document contains the complete source code and structure for the website.
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
       <div class="nav-logo">Queen Delila</div>
-      <div class="nav-motto">Your Eternal Addiction</div>
+      <div class="nav-motto" style="line-height: 1.4;">I have puppets all over the world</div>
     </a>
     <div class="nav-links" id="navLinks">
       <a href="index.html" class="nav-link">H O M E</a>
@@ -628,7 +628,7 @@ This document contains the complete source code and structure for the website.
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
       <div class="nav-logo">Queen Delila</div>
-      <div class="nav-motto">Your Eternal Addiction</div>
+      <div class="nav-motto" style="line-height: 1.4;">I have puppets all over the world</div>
     </a>
     <div class="nav-links" id="navLinks">
       <a href="index.html" class="nav-link">H O M E</a>
@@ -841,7 +841,7 @@ This document contains the complete source code and structure for the website.
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
       <div class="nav-logo">Queen Delila</div>
-      <div class="nav-motto">Your Eternal Addiction</div>
+      <div class="nav-motto" style="line-height: 1.4;">I have puppets all over the world</div>
     </a>
     <div class="nav-links" id="navLinks">
       <a href="index.html" class="nav-link">H O M E</a>
@@ -1089,7 +1089,7 @@ This document contains the complete source code and structure for the website.
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
       <div class="nav-logo">Queen Delila</div>
-      <div class="nav-motto">Your Eternal Addiction</div>
+      <div class="nav-motto" style="line-height: 1.4;">I have puppets all over the world</div>
     </a>
     <div class="nav-links" id="navLinks">
       <a href="index.html" class="nav-link">H O M E</a>

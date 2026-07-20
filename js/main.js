@@ -139,11 +139,11 @@ function initScrollAnimations() {
   const reveals = document.querySelectorAll('.reveal');
   reveals.forEach(el => {
     gsap.fromTo(el,
-      { opacity: 0, y: 40 },
+      { opacity: 0, y: 40, scale: 0.95 },
       {
-        opacity: 1, y: 0,
+        opacity: 1, y: 0, scale: 1,
         duration: 1,
-        ease: 'power3.out',
+        ease: 'power4.out',
         scrollTrigger: {
           trigger: el,
           start: 'top 85%',
@@ -165,12 +165,12 @@ function initScrollAnimations() {
     if (!children.length) return;
 
     gsap.fromTo(children,
-      { opacity: 0, y: 30 },
+      { opacity: 0, y: 30, scale: 0.95 },
       {
-        opacity: 1, y: 0,
+        opacity: 1, y: 0, scale: 1,
         duration: 0.8,
-        stagger: 0.12,
-        ease: 'power3.out',
+        stagger: 0.08,
+        ease: 'power4.out',
         scrollTrigger: {
           trigger: grid,
           start: 'top 85%',
@@ -293,4 +293,35 @@ document.addEventListener('DOMContentLoaded', () => {
   initGalleryFilter();
   initSpecialtiesFade();
   initTestimonialCarousel();
+});
+
+
+// --- Theme Toggle Logic ---
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleBtn = document.getElementById('themeToggle');
+  if (!toggleBtn) return;
+  
+  const themes = ['dark', 'gold'];
+  let currentTheme = localStorage.getItem('queenDelilaTheme') || 'dark';
+  if (!themes.includes(currentTheme)) {
+    currentTheme = 'dark';
+    localStorage.setItem('queenDelilaTheme', 'dark');
+  }
+  
+  function applyTheme(theme) {
+    document.body.classList.remove('theme-gold', 'theme-platinum', 'theme-monochrome');
+    if (theme !== 'dark') {
+      document.body.classList.add(`theme-${theme}`);
+    }
+    localStorage.setItem('queenDelilaTheme', theme);
+  }
+  
+  applyTheme(currentTheme);
+  
+  toggleBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const currentIndex = themes.indexOf(currentTheme);
+    currentTheme = themes[(currentIndex + 1) % themes.length];
+    applyTheme(currentTheme);
+  });
 });

@@ -32,6 +32,9 @@ html {
   --white-faint: rgba(240, 236, 230, 0.15);
   --font-serif: 'Playfair Display', Georgia, serif;
   --font-sans: 'Inter', -apple-system, sans-serif;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 body {
@@ -69,11 +72,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.6s;
+  transition: opacity 400ms var(--ease-out), transform 400ms var(--ease-out);
 }
 
 .age-gate.hidden {
   opacity: 0;
+  transform: scale(0.95);
   pointer-events: none;
 }
 
@@ -121,7 +125,7 @@ a {
   justify-content: space-between;
   padding: 16px 20px;
   background: transparent;
-  transition: background 0.4s;
+  transition: background 400ms var(--ease-out);
   backdrop-filter: none;
 }
 
@@ -149,12 +153,14 @@ a {
 }
 
 .nav-motto {
-  font-family: var(--font-sans);
-  font-size: clamp(7px, 2vw, 9px);
-  letter-spacing: 0.3em;
+  font-family: var(--font-serif);
+  font-size: clamp(9px, 1.2vw, 11px);
+  font-style: italic;
+  letter-spacing: 0.05em;
   color: var(--white-dim);
-  text-transform: uppercase;
+  text-transform: none;
   white-space: nowrap;
+  opacity: 0.7;
 }
 
 .nav-links {
@@ -180,12 +186,13 @@ a {
 .nav-link {
   font-family: var(--font-sans);
   font-size: 11px;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
   color: var(--white-dim);
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 200ms ease;
   position: relative;
+  padding-bottom: 6px;
 }
 
 .nav-link:hover,
@@ -193,14 +200,38 @@ a {
   color: var(--white);
 }
 
-.nav-link--active::after {
+.nav-link::after {
   content: '';
   position: absolute;
-  bottom: -8px;
+  bottom: 0;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 1px;
   background: var(--red);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 300ms var(--ease-out);
+  opacity: 0.5;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-link--active::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--red);
+}
+
+.nav-link--active::after {
+  display: none;
 }
 
 .nav-socials {
@@ -213,8 +244,16 @@ a {
 
 .nav-social {
   color: var(--white-dim);
-  transition: color 0.3s;
+  transition: color 200ms ease;
   display: flex;
+}
+
+button.nav-social {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
 }
 
 .nav-social:hover {
@@ -238,7 +277,7 @@ a {
   width: 24px;
   height: 1.5px;
   background: var(--white);
-  transition: all 0.3s;
+  transition: transform 200ms var(--ease-out), opacity 200ms ease;
 }
 
 .nav-hamburger.active span:nth-child(1) {
@@ -266,10 +305,16 @@ a {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  transition: all 0.4s;
+  transition: transform 160ms var(--ease-out), background 200ms ease, color 200ms ease, border-color 200ms ease, filter 200ms ease;
   text-decoration: none;
   position: relative;
   white-space: nowrap;
+}
+
+
+.btn:active {
+  transform: scale(0.97);
+  filter: blur(1px);
 }
 
 .btn-primary {
@@ -330,11 +375,28 @@ a {
   z-index: 1;
 }
 
-.hero-video-placeholder {
+.hero-video-slideshow {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a0505 50%, #0a0a0a 100%);
+  width: 100%;
+  height: 100%;
   z-index: 1;
+  overflow: hidden;
+  background: #000;
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.hero-video.active {
+  opacity: 0.8;
 }
 
 .hero-overlay {
@@ -510,7 +572,7 @@ a {
   border-radius: 32px;
   padding: 50px 30px 40px;
   text-align: center;
-  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 400ms var(--ease-out), box-shadow 400ms var(--ease-out), border-color 400ms var(--ease-out), background 400ms var(--ease-out);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -519,6 +581,10 @@ a {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.feature-card:active {
+  transform: scale(0.98);
 }
 
 .feature-card::before {
@@ -591,7 +657,7 @@ a {
   position: relative;
   display: inline-block;
   padding-bottom: 6px;
-  transition: color 0.3s;
+  transition: color 200ms ease;
   z-index: 2;
 }
 
@@ -672,13 +738,17 @@ a {
   align-items: center;
   text-align: center;
   text-decoration: none;
-  transition: all 0.4s;
+  transition: transform 160ms var(--ease-out), background 200ms ease, color 200ms ease, border-color 200ms ease, filter 200ms ease;
 }
 
 .cta-grid-card:hover {
   background: linear-gradient(180deg, rgba(138, 3, 3, 0.2) 0%, rgba(255, 255, 255, 0.02) 100%);
   box-shadow: 0 10px 30px rgba(138, 3, 3, 0.2);
   transform: translateY(-4px);
+}
+
+.cta-grid-card:active {
+  transform: scale(0.98);
 }
 
 .cta-grid-card .cta-slide-title {
@@ -749,13 +819,17 @@ a {
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  transition: all 0.3s;
+  transition: transform 200ms var(--ease-out), opacity 200ms ease;
 }
 
 .carousel-btn:hover {
   border-color: var(--red);
   color: var(--white);
   background: rgba(138, 3, 3, 0.2);
+}
+
+.carousel-btn:active {
+  transform: scale(0.95);
 }
 
 .carousel-indicators {
@@ -769,7 +843,7 @@ a {
   border-radius: 50%;
   background: var(--white-faint);
   cursor: pointer;
-  transition: all 0.3s;
+  transition: transform 200ms var(--ease-out), opacity 200ms ease;
 }
 
 .carousel-dot.active {
@@ -922,7 +996,7 @@ a {
   font-size: 20px;
   opacity: 0;
   transform: translateX(-10px);
-  transition: all 0.4s;
+  transition: transform 160ms var(--ease-out), background 200ms ease, color 200ms ease, border-color 200ms ease, filter 200ms ease;
 }
 
 .cta-card:hover .cta-card-title::after {
@@ -957,7 +1031,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 24px;
   padding: 36px;
-  transition: all 0.4s;
+  transition: transform 160ms var(--ease-out), background 200ms ease, color 200ms ease, border-color 200ms ease, filter 200ms ease;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -1064,7 +1138,7 @@ a {
   cursor: pointer;
   position: relative;
   margin-top: 2px;
-  transition: all 0.3s;
+  transition: transform 200ms var(--ease-out), opacity 200ms ease;
 }
 
 .contract-checkbox input[type="checkbox"]:checked {
@@ -1108,7 +1182,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 24px;
   padding: 36px;
-  transition: all 0.4s;
+  transition: transform 160ms var(--ease-out), background 200ms ease, color 200ms ease, border-color 200ms ease, filter 200ms ease;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -1200,7 +1274,7 @@ a {
   border: 1px solid var(--white-faint);
   color: var(--white-dim);
   cursor: pointer;
-  transition: all 0.3s;
+  transition: transform 200ms var(--ease-out), opacity 200ms ease;
 }
 
 .filter-tab:hover {
@@ -1221,18 +1295,10 @@ a {
 
 .gallery-tile {
   position: relative;
-  aspect-ratio: 3 / 4;
   overflow: hidden;
   background: var(--gunmetal);
   cursor: pointer;
-}
-
-.gallery-tile:nth-child(3n+2) {
-  aspect-ratio: 1 / 1;
-}
-
-.gallery-tile:nth-child(5n+3) {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
 }
 
 .gallery-tile-placeholder {
@@ -1311,7 +1377,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 32px;
   cursor: pointer;
-  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 400ms var(--ease-out), box-shadow 400ms var(--ease-out), border-color 400ms var(--ease-out), background 400ms var(--ease-out);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -1335,7 +1401,7 @@ a {
   justify-content: center;
   color: var(--red);
   box-shadow: 0 10px 30px rgba(138, 3, 3, 0.1);
-  transition: all 0.4s;
+  transition: transform 160ms var(--ease-out), background 200ms ease, color 200ms ease, border-color 200ms ease, filter 200ms ease;
 }
 
 .booking-card:hover .booking-card-icon {
@@ -1378,7 +1444,7 @@ a {
   letter-spacing: 0.2em;
   cursor: pointer;
   margin-bottom: 30px;
-  transition: color 0.3s;
+  transition: color 200ms ease;
   text-transform: uppercase;
   padding: 0;
 }
@@ -1574,7 +1640,7 @@ a {
   color: var(--white);
   text-decoration: none;
   text-transform: uppercase;
-  transition: all 0.3s;
+  transition: transform 200ms var(--ease-out), opacity 200ms ease;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 12px 24px;
@@ -1605,7 +1671,7 @@ a {
 .footer-bottom a {
   color: var(--white-dim);
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 200ms ease;
 }
 
 .footer-bottom a:hover {
@@ -1793,3 +1859,97 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+
+/* ============================================================
+   RICH CREAMY GOLD THEME
+   ============================================================ */
+
+body.theme-gold {
+  --black: #fcf8f2; /* rich creamy background */
+  --black-light: #f5eedf; /* slightly darker cream */
+  --red: #b8860b; /* dark goldenrod */
+  --red-bright: #d4af37; /* vibrant gold */
+  --burgundy: #a67c00; /* deep gold */
+  --gold: #d4af37; 
+  --gunmetal: #e8e0d0;
+  --white: #1a1a1a; /* text becomes dark */
+  --white-dim: rgba(26, 26, 26, 0.7);
+  --white-faint: rgba(26, 26, 26, 0.15);
+}
+
+body.theme-gold .section--dark { background: var(--black); }
+body.theme-gold .section--darker { background: var(--black-light); }
+
+body.theme-gold .hero-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(252, 248, 242, 0.7) 0%,
+    rgba(252, 248, 242, 0.9) 70%,
+    rgba(252, 248, 242, 1) 100%
+  );
+}
+
+body.theme-gold .nav.nav-solid {
+  background: rgba(252, 248, 242, 0.95);
+}
+
+body.theme-gold .nav-logo {
+  color: var(--black);
+}
+
+/* Fix Tally Form Visibility (Invert white text to black) */
+body.theme-gold iframe.booking-tally {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Feature Cards */
+body.theme-gold .feature-card {
+  background: linear-gradient(180deg, rgba(26, 26, 26, 0.04) 0%, rgba(26, 26, 26, 0.01) 100%);
+  border: 1px solid rgba(26, 26, 26, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+body.theme-gold .feature-card:hover {
+  background: linear-gradient(180deg, rgba(184, 134, 11, 0.08) 0%, rgba(26, 26, 26, 0.02) 100%);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1), 0 0 40px rgba(184, 134, 11, 0.15);
+  border-color: rgba(184, 134, 11, 0.4);
+}
+
+/* Intro Image */
+body.theme-gold .intro-image img {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15), 0 0 40px rgba(184, 134, 11, 0.2);
+  border: 1px solid rgba(26, 26, 26, 0.1);
+}
+
+/* CTA Cards & Testimonials */
+body.theme-gold .cta-grid-card {
+  background: linear-gradient(180deg, rgba(184, 134, 11, 0.08) 0%, rgba(26, 26, 26, 0.02) 100%);
+  border: 1px solid rgba(184, 134, 11, 0.3);
+}
+body.theme-gold .cta-grid-card:hover {
+  background: linear-gradient(180deg, rgba(184, 134, 11, 0.15) 0%, rgba(26, 26, 26, 0.04) 100%);
+  box-shadow: 0 10px 30px rgba(184, 134, 11, 0.15);
+}
+body.theme-gold .testimonial-card {
+  background: rgba(26, 26, 26, 0.03);
+}
+
+/* Shadows and glows */
+body.theme-gold .hero-title,
+body.theme-gold .specialty-item {
+  text-shadow: 0 10px 40px rgba(184, 134, 11, 0.4);
+}
+body.theme-gold .nav-links.active {
+  background: var(--black);
+}
+
+/* Invert icons and elements if needed */
+body.theme-gold .cursor-ring {
+  border-color: var(--gold);
+}
+body.theme-gold .age-gate {
+  background: var(--black);
+}
+
+
+

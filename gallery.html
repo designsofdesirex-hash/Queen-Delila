@@ -28,7 +28,7 @@
   <nav class="nav" id="nav">
     <a href="index.html" class="nav-brand">
       <div class="nav-logo">Queen Delila</div>
-      <div class="nav-motto">Your Eternal Addiction</div>
+      <div class="nav-motto" style="line-height: 1.4;">I have puppets all over the world</div>
     </a>
     <div class="nav-links" id="navLinks">
       <a href="index.html" class="nav-link">H O M E</a>
@@ -37,13 +37,27 @@
       <a href="booking.html" class="nav-link">B O O K I N G</a>
     </div>
     <div class="nav-socials">
-      <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
+      <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="nav-social" aria-label="Fansly">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">F</text></svg>
       </a>
-      <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
+      <a href="https://www.instagram.com/realdelila?igsh=MXRybHloNXlvdGY2Nw==" target="_blank" rel="noopener" class="nav-social" aria-label="Instagram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
       </a>
-      <a href="#telegram-placeholder" target="_blank" rel="noopener" class="nav-social" aria-label="Telegram">
+      
+      <button class="nav-social theme-toggle" id="themeToggle" aria-label="Toggle Theme" style="background:none; border:none; cursor:pointer;" title="Switch Theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </button>
+      <a href="https://t.me/Goddessdelila" target="_blank" rel="noopener" class="nav-social" aria-label="Telegram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.16.16 0 00-.07-.2c-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.66-.52.36-1 .54-1.42.53-.47-.01-1.37-.27-2.04-.49-.82-.27-1.47-.42-1.42-.88.03-.24.37-.49 1.02-.74 3.99-1.74 6.65-2.89 7.99-3.45 3.8-1.6 4.59-1.88 5.1-1.89.11 0 .37.03.54.17.14.12.18.28.2.45-.01.06.01.24 0 .37z"/></svg>
       </a>
     </div>
@@ -54,6 +68,21 @@
 
   <!-- HERO -->
   <section class="hero hero--small">
+    <div class="hero-video-slideshow">
+      <video class="hero-video" loop muted playsinline autoplay>
+        <source src="assets/mon-mot-cle-realdelila-1764890728-3780499286828125870-71629123376-07.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+        <source src="assets/mon-mot-cle-realdelila-1764890728-3780499286828125870-71629123376-07.mp4" type="video/mp4">
+      </video>
+      <video class="hero-video" loop muted playsinline autoplay>
+        <source src="assets/mon-mot-cle-realdelila-1765201254-3783104202738388963-71629123376-08.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+        <source src="assets/mon-mot-cle-realdelila-1765201254-3783104202738388963-71629123376-08.mp4" type="video/mp4">
+      </video>
+      <video class="hero-video" loop muted playsinline autoplay>
+        <source src="assets/mon-mot-cle-realdelila-1767805304-3804948816113855694-71629123376-09.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+        <source src="assets/mon-mot-cle-realdelila-1767805304-3804948816113855694-71629123376-09.mp4" type="video/mp4">
+      </video>
+    </div>
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1 class="hero-title">Evidence of Devotion.</h1>
@@ -82,84 +111,302 @@
 
       <div class="gallery-grid">
 
-        <!-- PHOTOS 1-5 -->
         <div class="gallery-tile" data-category="photo">
-          <div class="gallery-tile-placeholder">📸</div>
-          <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-11-03.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
           </div>
-        </div>
-        <div class="gallery-tile" data-category="photo">
-          <div class="gallery-tile-placeholder">📸</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
-          </div>
-        </div>
-        <div class="gallery-tile" data-category="photo">
-          <div class="gallery-tile-placeholder">📸</div>
-          <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
-          </div>
-        </div>
-        <div class="gallery-tile" data-category="photo">
-          <div class="gallery-tile-placeholder">📸</div>
-          <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
-          </div>
-        </div>
-        <div class="gallery-tile" data-category="photo">
-          <div class="gallery-tile-placeholder">📸</div>
-          <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
           </div>
         </div>
 
-        <!-- VIDEOS 6-9 -->
-        <div class="gallery-tile gallery-tile--video" data-category="video">
-          <div class="gallery-tile-placeholder"></div>
-          <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-15-07.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
           </div>
-        </div>
-        <div class="gallery-tile gallery-tile--video" data-category="video">
-          <div class="gallery-tile-placeholder"></div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
-          </div>
-        </div>
-        <div class="gallery-tile gallery-tile--video" data-category="video">
-          <div class="gallery-tile-placeholder"></div>
-          <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
-          </div>
-        </div>
-        <div class="gallery-tile gallery-tile--video" data-category="video">
-          <div class="gallery-tile-placeholder"></div>
-          <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
           </div>
         </div>
 
-        <!-- OUTFITS & TOOLS 10-12 -->
-        <div class="gallery-tile" data-category="outfit">
-          <div class="gallery-tile-placeholder">👑</div>
-          <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-9-17.webp" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
           </div>
-        </div>
-        <div class="gallery-tile" data-category="outfit">
-          <div class="gallery-tile-placeholder">👑</div>
           <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
-          </div>
-        </div>
-        <div class="gallery-tile" data-category="outfit">
-          <div class="gallery-tile-placeholder">👑</div>
-          <div class="gallery-tile-overlay">
-            <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener" class="gallery-tile-caption">Full content on Fansly →</a>
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
           </div>
         </div>
 
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1775582514-3870188369535474694-71629123376-11.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1775582514-3870188369535474694-71629123376-11.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1767906415-3805796295261465489-71629123376-10.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1767906415-3805796295261465489-71629123376-10.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-18-10.webp" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-18.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1756748388-3712196558234768945-71629123376-02.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1756748388-3712196558234768945-71629123376-02.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-2-11.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1777243518-3884121694121644027-71629123376-12.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1777243518-3884121694121644027-71629123376-12.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-5-13.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-14-06.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-17-09.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1757347609-3717222369748764892-71629123376-03.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1757347609-3717222369748764892-71629123376-03.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-12-04.webp" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-8-16.webp" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-7-15.webp" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1756241218-3707940859805436394-71629123376-01.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1756241218-3707940859805436394-71629123376-01.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1764890728-3780499286828125870-71629123376-07.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1764890728-3780499286828125870-71629123376-07.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1758133939-3723819225991790125-71629123376-04.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1758133939-3723819225991790125-71629123376-04.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-6-14.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1765201254-3783104202738388963-71629123376-08.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1765201254-3783104202738388963-71629123376-08.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-10-02.webp" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-4-12.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-13-05.webp" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1767805304-3804948816113855694-71629123376-09.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1767805304-3804948816113855694-71629123376-09.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile" data-category="photo">
+          <div class="gallery-tile-placeholder">
+            <img src="assets/mon-mot-cle-galerie-16-08.jfif" alt="Queen Delila Gallery" style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1761141989-3749052921011817485-71629123376-05.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1761141989-3749052921011817485-71629123376-05.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
+
+        <div class="gallery-tile gallery-tile--video" data-category="video">
+          <div class="gallery-tile-placeholder">
+            <video loop muted playsinline autoplay style="width:100%; height:100%; object-fit:cover; position:absolute; top:0; left:0; border-radius:inherit;">
+              <source src="assets/mon-mot-cle-realdelila-1762363021-3759295215640008889-71629123376-06.av1.mp4" type="video/mp4; codecs=av01.0.05M.08">
+              <source src="assets/mon-mot-cle-realdelila-1762363021-3759295215640008889-71629123376-06.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery-tile-overlay">
+            <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener" class="gallery-tile-caption">Explore my world →</a>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -170,17 +417,35 @@
     <div class="footer-inner">
       <div class="footer-portrait">
         <div class="footer-portrait-frame">
-          <!-- PHOTO PLACEHOLDER -->
+          <img src="assets/mon-mot-cle-footer-1-01-2.jpg" alt="Queen Delila" class="footer-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
         </div>
       </div>
       <div class="footer-center">
         <p class="footer-tagline">"I am the fire of any fire I fear"</p>
       </div>
       <div class="footer-socials">
-        <a href="https://fansly.com/queen_delila/posts" target="_blank" rel="noopener">Fansly</a>
-        <a href="https://www.instagram.com/queendelila/" target="_blank" rel="noopener">@queendelila</a>
-        <a href="https://www.instagram.com/Queen_delila" target="_blank" rel="noopener">@Queen_delila</a>
-        <a href="#telegram-placeholder" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener">Linktree</a>
+        <a href="https://linktr.ee/Fingoddessdelila" target="_blank" rel="noopener">Fansly</a>
+        <a href="https://throne.com/goddess_delila" target="_blank" rel="noopener">Throne</a>
+        <a href="https://www.instagram.com/realdelila?igsh=MXRybHloNXlvdGY2Nw==" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://x.com/onTheFloor4D?t=G6OQuRqxacyJcYz1mPgnAg&s=09" target="_blank" rel="noopener">X (Twitter)</a>
+        <a href="https://www.snapchat.com/@goddessdelila?share_id=OcYJYYbYtxg&locale=en-US" target="_blank" rel="noopener">Snapchat</a>
+        <a href="https://whatsapp.com/channel/0029VbCAX733gvWXa1D86C2Z" target="_blank" rel="noopener">WhatsApp Comm</a>
+        <a href="https://t.me/+Jb6YXyabZN9lZmQ0" target="_blank" rel="noopener">Telegram Comm</a>
+        <a href="https://t.me/Goddessdelila" target="_blank" rel="noopener">Telegram Private</a>
+        <button class="nav-social theme-toggle" id="themeToggle" aria-label="Toggle Theme" style="background:none; border:none; cursor:pointer;" title="Switch Theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
       </div>
     </div>
     <div class="footer-bottom">
@@ -197,5 +462,7 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="js/main.js"></script>
+  <script type="module" src="js/hero-3d.js"></script>
+  <script src="js/hero-videos.js"></script>
 </body>
 </html>
